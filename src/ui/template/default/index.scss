@@ -1,0 +1,13 @@
+.j-defaultLayout {
+  display: grid;
+  grid-template-areas: "header" "content";
+  .j-defaultLayout__menu {
+    grid-area: header;
+  }
+
+  .j-defaultLayout__content {
+    grid-area: content;
+    height: 100%;
+    padding: 30px;
+  }
+}
